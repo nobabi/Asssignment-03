@@ -7,9 +7,13 @@
     <!-- Google Font Link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet" />
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
     <!-- tailwind css & DaisyUI Links -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -30,15 +34,13 @@
                         body: 'rgb(248, 246, 243)',
                         custom: 'rgb(180, 229, 123)',
                         body_neutral: 'rgb(51, 51, 51)',
-                       
                     },
                     fontFamily: {
-                        Poppins: 'Poppins',
+                        Inter: 'Inter',
                     },
                     backgroundImage: {
-                          leaf1: "url('assets/bg.jpg')",
+                        leaf1: "url('assets/bg.jpg')",
                     },
-                   
                 },
             },
         }
@@ -47,11 +49,11 @@
 
 </head>
 
-<body class="bg-[#f4f4f4]">
+<body class="bg-[#f4f4f4] font-Inter">
     <!-- banner section start -->
     <header>
         <!-- nav bar section start -->
-        <nav class="fixed navbar w-11/12 mx-auto ">
+        <nav class="navbar w-11/12 mx-auto ">
             <div class="navbar-start">
 
                 <div class="flex items-center justify-center gap-3">
@@ -159,45 +161,44 @@
             </div>
         </nav>
 
-       
-            <div class="hero w-11/12 mx-auto ">
+        <div class="hero w-11/12 mx-auto ">
 
-                <div class="hero-content flex items-center justify-center min-h-screen text-neutral-content text-center">
-                    <div class="mx-auto  text-center">
-                        <div class="flex items-center justify-center">
-                            <img class="" src="assets/banner.png" alt="">
-                        </div>
-                        <div class="mx-auto lg:max-w-screen-lg">
-                            <h1 class="text-3xl sm:text-4xl lg:text-6xl font-bold leading-snug sm:leading-tight lg:leading-none text-black">
-                                A barn house of this design has <br class="hidden sm:block"> a striking appearance
-                            </h1>
-                            <p class="lg:w-3/4 text-neutral-500 my-5">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected humour.
-                            </p>
-                        </div>
-                        <div class="flex items-center justify-center gap-5">
-                            <button class="flex items-center justify-center gap-1 bg-[#abef5f] rounded-full p-2">
-                                <div>
-                                    <h1 class="text-xl text-black font-semibold">View Details</h1>
-                                </div>
-                                <div>
-                                    <!-- <i class="fa-solid fa-arrow-trend-up bg-[#abef5f]  rounded-full"></i> -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor"
-                                        class="size-6 p-1 bg-black text-white rounded-full font-semibold">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                                    </svg>
-                                </div>
-                            </button>
-                        </div>
+            <div class="hero-content flex items-center justify-center min-h-screen text-neutral-content text-center">
+                <div class="mx-auto  text-center">
+                    <div class="flex items-center justify-center">
+                        <img class="" src="assets/banner.png" alt="">
+                    </div>
+                    <div class="mx-auto lg:max-w-screen-lg">
+                        <h1
+                            class="text-3xl sm:text-4xl lg:text-6xl font-bold leading-snug sm:leading-tight lg:leading-none text-black">
+                            Barn houses, with their rustic charm and robust design,  <br class="hidden sm:block"> a striking appearance
+                        </h1>
+                        <p class="lg:w-3/4 text-neutral-500 my-5">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour.
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-center gap-5">
+                        <button class="flex items-center justify-center gap-1 bg-[#abef5f] rounded-full p-2">
+                            <div>
+                                <h1 class="text-xl text-black font-semibold">View Details</h1>
+                            </div>
+                            <div>
+                                <!-- <i class="fa-solid fa-arrow-trend-up bg-[#abef5f]  rounded-full"></i> -->
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor"
+                                    class="size-6 p-1 bg-black text-white rounded-full font-semibold">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>
+                            </div>
+                        </button>
                     </div>
                 </div>
-    
             </div>
-    
-      
+
+        </div>
+
         <!-- Banner section start -->
 
         <div class="w-11/12 mx-auto">
@@ -241,7 +242,6 @@
                                 featuring weathered wood, sleek metal accents.
                             </p>
                         </div>
-
 
                         <div
                             class="relative lg:relative sm:left-0 left-1/2 transform sm:translate-x-0 -translate-x-1/2 p-4 w-full max-w-lg bg-white rounded-xl mb-5 ">
@@ -322,7 +322,6 @@
                     </div>
                 </div>
 
-
                 <div class="card  bg-[#efda6e]  sm:w-[320px] md:w-[340px] lg:w-[360px] lg:h-[250px] shadow-xl ">
                     <figure class="px-2 pt-2">
                         <img src="assets/flow-chart.png" alt="Shoes" class="rounded-xl" />
@@ -357,9 +356,6 @@
                 </div>
 
             </div>
-
-
-
 
             <section class="my-36   bg-white ">
                 <div class=" mx-auto lg:max-w-screen-lg border border-[#ecefe8] rounded-3xl">
@@ -463,8 +459,7 @@
                                         class="w-full  sm:max-w-[220px] h-auto lg:w-[220px] lg:h-[140px] object-cover rounded-3xl">
 
                                     <!-- Text Content -->
-                                    <div
-                                        class="p-2 flex flex-col lg:w-[395px] h-auto lg:h-[140px]  ">
+                                    <div class="p-2 flex flex-col lg:w-[395px] h-auto lg:h-[140px]  ">
                                         <h1 class="font-bold text-1xl sm:text-3xl lg:text-3xl">Commercial</h1>
                                         <p class="text-sm sm:text-base lg:text-base mt-2">
                                             The barn house captivates with its blend of rustic charm and modern
@@ -477,19 +472,18 @@
                                                 </div>
                                                 <div>
                                                     <!-- <i class="fa-solid fa-arrow-trend-up bg-[#abef5f]  rounded-full"></i> -->
-                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                        stroke-width="1.5" stroke="currentColor"
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                                                         class="size-6 p-1  bg-[#abef5f] text-black  rounded-full font-semibold">
                                                         <path stroke-linecap="round" stroke-linejoin="round"
                                                             d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                                                     </svg>
-        
+
                                                 </div>
                                             </button>
-            
+
                                         </div>
                                     </div>
-
 
                                 </div>
 
